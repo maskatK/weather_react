@@ -1,0 +1,113 @@
+.container {
+  width: 60vw;
+  min-height: 70vh;
+  border-radius: 6px;
+  -webkit-box-shadow: 4px -4px 15px 0px #ff1f1f, 12px -11px 7px 0px #ff9376,
+    20px -5px 7px 0px #ffe264, 20px 6px 7px 0px #f6ff33,
+    13px 12px 17px 0px #ff9527, 2px 17px 17px 0px #ff0000,
+    -9px 21px 18px 0px #fff212, -9px 6px 11px 0px #ff0808,
+    -11px -9px 11px 0px #fffa17, -11px -9px 11px 0px #fffa17,
+    -1px 15px 23px 8px rgba(0, 0, 0, 0);
+  box-shadow: 4px -4px 15px 0px #ff1f1f, 12px -11px 7px 0px #ff9376,
+    20px -5px 7px 0px #ffe264, 20px 6px 7px 0px #f6ff33,
+    13px 12px 17px 0px #ff9527, 2px 17px 17px 0px #ff0000,
+    -9px 21px 18px 0px #fff212, -9px 6px 11px 0px #ff0808,
+    -11px -9px 11px 0px #fffa17, -11px -9px 11px 0px #fffa17,
+    -1px 15px 23px 8px rgba(0, 0, 0, 0);
+  margin-top: 70px;
+}
+.row {
+  padding: 5px 10px;
+  margin: 0 5px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+  color: gray;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+}
+li:first-letter {
+  text-transform: capitalize;
+}
+h1 {
+  font-size: 22px;
+  text-align: center;
+  color: #4eae53;
+}
+.sut {
+  text-align: center;
+  color: #ff7f13;
+}
+.row.row-cols-2 {
+  padding: 10px;
+}
+.row.offset-md-7 {
+  margin-top: 5px;
+}
+#search {
+  border-radius: 6px;
+}
+.row-cols-5 {
+  margin: 5px 10px;
+  color: gray;
+}
+.col-sm {
+  text-align: center;
+}
+.col {
+  text-align: center;
+  padding: 5px;
+}
+.bg-white {
+  border-radius: 10px;
+}
+footer {
+  position: absolute;
+  width: 100vw;
+  top: 88%;
+  text-align: center;
+}
+#date {
+  padding-top: 10px;
+}
+#your_city {
+  text-align: left;
+  margin: 0 7px;
+}
+#show_yor_city {
+  text-align: right;
+  margin: 0 7px;
+}
+#temperature {
+  display: table-cell;
+}
+.img-weather img {
+  height: 100px;
+  width: 100px;
+}
+.temperature-c-f strong {
+  color: rgb(33, 33, 33);
+  font-size: 60px;
+  font-weight: 200;
+  line-height: 1;
+  position: relative;
+  top: 5px;
+}
+span.units {
+  position: relative;
+  bottom: 25px;
+}
+.units .active {
+  color: gray;
+  text-decoration: none;
+  cursor: #fff;
+}
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
