@@ -11,6 +11,11 @@ export default function App() {
       <div className="container">
         <Search />
       </div>
+      <footer>
+        <p>
+    <a href="https://github.com/maskatK/weather_react.git">My GitHub repositopy</a>
+    </p>
+      </footer>
     </div>
   );
 }
